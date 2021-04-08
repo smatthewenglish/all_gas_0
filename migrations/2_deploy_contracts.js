@@ -1,5 +1,5 @@
-const builderShop = artifacts.require("BuilderShop");
+const BuilderShop = artifacts.require("BuilderShop");
 
 module.exports = function(deployer) {
-  deployer.deploy(builderShop);
+  deployer.deploy(BuilderShop);
 };
